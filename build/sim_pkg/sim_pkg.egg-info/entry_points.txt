@@ -1,0 +1,2 @@
+[console_scripts]
+simulator = sim_pkg.sim_node:main

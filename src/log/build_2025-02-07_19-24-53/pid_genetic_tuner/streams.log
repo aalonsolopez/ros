@@ -1,0 +1,33 @@
+[0.478s] Invoking command in '/home/aalonso/Personal/ros2_ws/src/pid_genetic_tuner': PYTHONPATH=/home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/prefix_override:/home/aalonso/ros2_py310_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py310_env) /home/aalonso/ros2_py310_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pid_genetic_tuner build --build-base /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/build install --record /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/install.log --single-version-externally-managed install_data
+[0.564s] /home/aalonso/ros2_py310_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.564s]   warnings.warn(msg)
+[0.610s] running egg_info
+[0.616s] creating ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info
+[0.617s] writing ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/PKG-INFO
+[0.617s] writing dependency_links to ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/dependency_links.txt
+[0.617s] writing entry points to ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/entry_points.txt
+[0.617s] writing requirements to ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/requires.txt
+[0.617s] writing top-level names to ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/top_level.txt
+[0.618s] writing manifest file '../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+[0.645s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[0.719s] reading manifest file '../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+[0.719s] writing manifest file '../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] creating /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/build/lib/pid_genetic_tuner
+[0.720s] copying pid_genetic_tuner/genetic_pid_node.py -> /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/build/lib/pid_genetic_tuner
+[0.720s] running install
+[0.723s] running install_lib
+[0.730s] creating /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner
+[0.730s] copying /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/build/lib/pid_genetic_tuner/genetic_pid_node.py -> /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner
+[0.731s] byte-compiling /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner/genetic_pid_node.py to genetic_pid_node.cpython-310.pyc
+[0.732s] running install_data
+[0.732s] creating /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/share/ament_index/resource_index/packages
+[0.732s] copying resource/pid_genetic_tuner -> /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/share/ament_index/resource_index/packages
+[0.732s] copying package.xml -> /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/share/pid_genetic_tuner
+[0.732s] running install_egg_info
+[0.739s] Copying ../build/pid_genetic_tuner/pid_genetic_tuner.egg-info to /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info
+[0.739s] running install_scripts
+[0.786s] Installing genetic_pid_node script to /home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/pid_genetic_tuner
+[0.787s] writing list of installed files to '/home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/install.log'
+[0.803s] Invoked command in '/home/aalonso/Personal/ros2_ws/src/pid_genetic_tuner' returned '0': PYTHONPATH=/home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/prefix_override:/home/aalonso/ros2_py310_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aalonso/Personal/ros2_ws/src/install/pid_genetic_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py310_env) /home/aalonso/ros2_py310_env/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pid_genetic_tuner build --build-base /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/build install --record /home/aalonso/Personal/ros2_ws/src/build/pid_genetic_tuner/install.log --single-version-externally-managed install_data

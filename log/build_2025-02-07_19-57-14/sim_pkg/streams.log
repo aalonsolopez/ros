@@ -1,0 +1,57 @@
+[0.642s] Invoking command in '/home/aalonso/Personal/ros2_ws/src/sim_pkg': PYTHONPATH=/home/aalonso/Personal/ros2_ws/build/sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/aalonso/Personal/ros2_ws/build/sim_pkg/build install --record /home/aalonso/Personal/ros2_ws/build/sim_pkg/install.log --single-version-externally-managed install_data
+[0.742s] /home/aalonso/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[0.742s]   warnings.warn(msg)
+[0.789s] running egg_info
+[0.789s] creating ../../build/sim_pkg/sim_pkg.egg-info
+[0.796s] writing ../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO
+[0.797s] writing dependency_links to ../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt
+[0.797s] writing entry points to ../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt
+[0.797s] writing requirements to ../../build/sim_pkg/sim_pkg.egg-info/requires.txt
+[0.797s] writing top-level names to ../../build/sim_pkg/sim_pkg.egg-info/top_level.txt
+[0.797s] writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] creating /home/aalonso/Personal/ros2_ws/build/sim_pkg/build
+[0.813s] creating /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib
+[0.814s] creating /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.814s] copying sim_pkg/sim_manual.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.814s] copying sim_pkg/sim_node.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.814s] copying sim_pkg/__init__.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg
+[0.814s] creating /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.814s] copying sim_pkg/utils/DC_motor_sim.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.814s] copying sim_pkg/utils/Performance.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.815s] copying sim_pkg/utils/__init__.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.815s] copying sim_pkg/utils/Controller.py -> /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils
+[0.815s] running install
+[0.818s] running install_lib
+[0.828s] creating /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.829s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_manual.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.829s] creating /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.829s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/DC_motor_sim.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.830s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Performance.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.830s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/__init__.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.830s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/utils/Controller.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[0.830s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/sim_node.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.830s] copying /home/aalonso/Personal/ros2_ws/build/sim_pkg/build/lib/sim_pkg/__init__.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[0.830s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_manual.py to sim_manual.cpython-310.pyc
+[0.830s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/DC_motor_sim.py to DC_motor_sim.cpython-310.pyc
+[0.830s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Performance.py to Performance.cpython-310.pyc
+[0.831s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/__init__.py to __init__.cpython-310.pyc
+[0.831s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Controller.py to Controller.cpython-310.pyc
+[0.831s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_node.py to sim_node.cpython-310.pyc
+[0.832s] byte-compiling /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/__init__.py to __init__.cpython-310.pyc
+[0.832s] running install_data
+[0.832s] creating /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/ament_index
+[0.832s] creating /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/ament_index/resource_index
+[0.832s] creating /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages
+[0.832s] copying resource/sim_pkg -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/ament_index/resource_index/packages
+[0.832s] copying package.xml -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/sim_pkg
+[0.832s] copying launch/sim_srv.launch.py -> /home/aalonso/Personal/ros2_ws/install/sim_pkg/share/sim_pkg
+[0.833s] running install_egg_info
+[0.842s] Copying ../../build/sim_pkg/sim_pkg.egg-info to /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info
+[0.842s] running install_scripts
+[0.904s] Installing simulator script to /home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/sim_pkg
+[0.904s] writing list of installed files to '/home/aalonso/Personal/ros2_ws/build/sim_pkg/install.log'
+[0.925s] Invoked command in '/home/aalonso/Personal/ros2_ws/src/sim_pkg' returned '0': PYTHONPATH=/home/aalonso/Personal/ros2_ws/build/sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aalonso/Personal/ros2_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/aalonso/Personal/ros2_ws/build/sim_pkg/build install --record /home/aalonso/Personal/ros2_ws/build/sim_pkg/install.log --single-version-externally-managed install_data

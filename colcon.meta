@@ -1,0 +1,7 @@
+{
+    "names": {
+        "pid_genetic_tuner": {"type": "ament_python"},
+        "sim_pkg": {"type": "ament_cmake"},
+        "msgs_control": {"type": "ament_cmake"}
+    }
+}

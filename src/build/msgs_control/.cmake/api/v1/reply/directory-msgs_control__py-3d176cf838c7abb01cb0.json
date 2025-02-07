@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msgs_control__py",
+		"source" : "/home/aalonso/Personal/ros2_ws/src/build/msgs_control/msgs_control__py"
+	}
+}
