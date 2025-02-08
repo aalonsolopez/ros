@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/PKG-INFO
+writing dependency_links to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/dependency_links.txt
+writing entry points to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/entry_points.txt
+writing requirements to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/requires.txt
+writing top-level names to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/top_level.txt
+package init file 'pid_genetic_tuner/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+writing manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info
+running install_scripts
+Installing genetic_pid_node script to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/pid_genetic_tuner
+writing list of installed files to '/home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log'

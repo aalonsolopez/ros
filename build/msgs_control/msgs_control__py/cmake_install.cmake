@@ -1,8 +1,8 @@
-# Install script for directory: /home/aalonso/Personal/ros2_ws/build/msgs_control/msgs_control__py
+# Install script for directory: /home/upm/Escritorio/ros/build/msgs_control/msgs_control__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aalonso/Personal/ros2_ws/install/msgs_control")
+  set(CMAKE_INSTALL_PREFIX "/home/upm/Escritorio/ros/install/msgs_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

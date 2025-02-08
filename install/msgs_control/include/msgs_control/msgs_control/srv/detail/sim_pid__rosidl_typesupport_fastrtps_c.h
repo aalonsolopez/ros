@@ -9,23 +9,11 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-#include "msgs_control/srv/detail/sim_pid__struct.h"
-#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_msgs_control__srv__SimPID_Request(
-  const msgs_control__srv__SimPID_Request * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_deserialize_msgs_control__srv__SimPID_Request(
-  eprosima::fastcdr::Cdr &,
-  msgs_control__srv__SimPID_Request * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
 size_t get_serialized_size_msgs_control__srv__SimPID_Request(
@@ -34,22 +22,6 @@ size_t get_serialized_size_msgs_control__srv__SimPID_Request(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
 size_t max_serialized_size_msgs_control__srv__SimPID_Request(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_key_msgs_control__srv__SimPID_Request(
-  const msgs_control__srv__SimPID_Request * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t get_serialized_size_key_msgs_control__srv__SimPID_Request(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t max_serialized_size_key_msgs_control__srv__SimPID_Request(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
@@ -70,25 +42,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c,
 // #include "rosidl_typesupport_interface/macros.h"
 // already included above
 // #include "msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-// already included above
-// #include "msgs_control/srv/detail/sim_pid__struct.h"
-// already included above
-// #include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_msgs_control__srv__SimPID_Response(
-  const msgs_control__srv__SimPID_Response * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_deserialize_msgs_control__srv__SimPID_Response(
-  eprosima::fastcdr::Cdr &,
-  msgs_control__srv__SimPID_Response * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
 size_t get_serialized_size_msgs_control__srv__SimPID_Response(
@@ -102,87 +60,8 @@ size_t max_serialized_size_msgs_control__srv__SimPID_Response(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_key_msgs_control__srv__SimPID_Response(
-  const msgs_control__srv__SimPID_Response * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t get_serialized_size_key_msgs_control__srv__SimPID_Response(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t max_serialized_size_key_msgs_control__srv__SimPID_Response(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, msgs_control, srv, SimPID_Response)();
-
-#ifdef __cplusplus
-}
-#endif
-
-// already included above
-// #include <stddef.h>
-// already included above
-// #include "rosidl_runtime_c/message_type_support_struct.h"
-// already included above
-// #include "rosidl_typesupport_interface/macros.h"
-// already included above
-// #include "msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-// already included above
-// #include "msgs_control/srv/detail/sim_pid__struct.h"
-// already included above
-// #include "fastcdr/Cdr.h"
-
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_msgs_control__srv__SimPID_Event(
-  const msgs_control__srv__SimPID_Event * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_deserialize_msgs_control__srv__SimPID_Event(
-  eprosima::fastcdr::Cdr &,
-  msgs_control__srv__SimPID_Event * ros_message);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t get_serialized_size_msgs_control__srv__SimPID_Event(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t max_serialized_size_msgs_control__srv__SimPID_Event(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-bool cdr_serialize_key_msgs_control__srv__SimPID_Event(
-  const msgs_control__srv__SimPID_Event * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t get_serialized_size_key_msgs_control__srv__SimPID_Event(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-size_t max_serialized_size_key_msgs_control__srv__SimPID_Event(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_msgs_control
-const rosidl_message_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, msgs_control, srv, SimPID_Event)();
 
 #ifdef __cplusplus
 }

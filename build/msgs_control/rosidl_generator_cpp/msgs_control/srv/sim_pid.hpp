@@ -7,6 +7,5 @@
 #include "msgs_control/srv/detail/sim_pid__struct.hpp"
 #include "msgs_control/srv/detail/sim_pid__builder.hpp"
 #include "msgs_control/srv/detail/sim_pid__traits.hpp"
-#include "msgs_control/srv/detail/sim_pid__type_support.hpp"
 
 #endif  // MSGS_CONTROL__SRV__SIM_PID_HPP_

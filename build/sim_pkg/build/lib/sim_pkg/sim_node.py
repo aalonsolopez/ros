@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from msgs_control.srv import SimPID  # Importa el mensaje de servicio personalizado
-from traceback import format_exc
+
 from sim_pkg.utils.Performance import Performance
 from sim_pkg.utils.Controller import Controller
 

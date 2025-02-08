@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/msgs_control__cpp"
-  "rosidl_generator_cpp/msgs_control/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/msgs_control/srv/detail/sim_pid__builder.hpp"
   "rosidl_generator_cpp/msgs_control/srv/detail/sim_pid__struct.hpp"
   "rosidl_generator_cpp/msgs_control/srv/detail/sim_pid__traits.hpp"
-  "rosidl_generator_cpp/msgs_control/srv/detail/sim_pid__type_support.hpp"
   "rosidl_generator_cpp/msgs_control/srv/sim_pid.hpp"
 )
 

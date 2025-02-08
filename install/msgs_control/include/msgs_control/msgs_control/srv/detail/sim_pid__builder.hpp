@@ -2,9 +2,6 @@
 // with input from msgs_control:srv/SimPID.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "msgs_control/srv/sim_pid.hpp"
-
-
 #ifndef MSGS_CONTROL__SRV__DETAIL__SIM_PID__BUILDER_HPP_
 #define MSGS_CONTROL__SRV__DETAIL__SIM_PID__BUILDER_HPP_
 
@@ -174,80 +171,6 @@ inline
 auto build<::msgs_control::srv::SimPID_Response>()
 {
   return msgs_control::srv::builder::Init_SimPID_Response_overshoot();
-}
-
-}  // namespace msgs_control
-
-
-namespace msgs_control
-{
-
-namespace srv
-{
-
-namespace builder
-{
-
-class Init_SimPID_Event_response
-{
-public:
-  explicit Init_SimPID_Event_response(::msgs_control::srv::SimPID_Event & msg)
-  : msg_(msg)
-  {}
-  ::msgs_control::srv::SimPID_Event response(::msgs_control::srv::SimPID_Event::_response_type arg)
-  {
-    msg_.response = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::msgs_control::srv::SimPID_Event msg_;
-};
-
-class Init_SimPID_Event_request
-{
-public:
-  explicit Init_SimPID_Event_request(::msgs_control::srv::SimPID_Event & msg)
-  : msg_(msg)
-  {}
-  Init_SimPID_Event_response request(::msgs_control::srv::SimPID_Event::_request_type arg)
-  {
-    msg_.request = std::move(arg);
-    return Init_SimPID_Event_response(msg_);
-  }
-
-private:
-  ::msgs_control::srv::SimPID_Event msg_;
-};
-
-class Init_SimPID_Event_info
-{
-public:
-  Init_SimPID_Event_info()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_SimPID_Event_request info(::msgs_control::srv::SimPID_Event::_info_type arg)
-  {
-    msg_.info = std::move(arg);
-    return Init_SimPID_Event_request(msg_);
-  }
-
-private:
-  ::msgs_control::srv::SimPID_Event msg_;
-};
-
-}  // namespace builder
-
-}  // namespace srv
-
-template<typename MessageType>
-auto build();
-
-template<>
-inline
-auto build<::msgs_control::srv::SimPID_Event>()
-{
-  return msgs_control::srv::builder::Init_SimPID_Event_info();
 }
 
 }  // namespace msgs_control

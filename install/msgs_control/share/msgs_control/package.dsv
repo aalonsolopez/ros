@@ -4,9 +4,6 @@ source;share/msgs_control/hook/cmake_prefix_path.sh
 source;share/msgs_control/hook/ld_library_path_lib.ps1
 source;share/msgs_control/hook/ld_library_path_lib.dsv
 source;share/msgs_control/hook/ld_library_path_lib.sh
-source;share/msgs_control/hook/pythonpath.ps1
-source;share/msgs_control/hook/pythonpath.dsv
-source;share/msgs_control/hook/pythonpath.sh
 source;share/msgs_control/local_setup.bash
 source;share/msgs_control/local_setup.dsv
 source;share/msgs_control/local_setup.ps1

@@ -1,0 +1,22 @@
+[0.921s] Invoking command in '/home/upm/Escritorio/ros/src/pid_genetic_tuner': PYTHONPATH=/home/upm/Escritorio/ros/build/pid_genetic_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pid_genetic_tuner build --build-base /home/upm/Escritorio/ros/build/pid_genetic_tuner/build install --record /home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log --single-version-externally-managed install_data
+[1.158s] running egg_info
+[1.159s] writing ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/PKG-INFO
+[1.159s] writing dependency_links to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/dependency_links.txt
+[1.159s] writing entry points to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/entry_points.txt
+[1.159s] writing requirements to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/requires.txt
+[1.159s] writing top-level names to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/top_level.txt
+[1.160s] package init file 'pid_genetic_tuner/__init__.py' not found (or not a regular file)
+[1.161s] reading manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+[1.162s] writing manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'
+[1.162s] running build
+[1.162s] running build_py
+[1.162s] running install
+[1.162s] running install_lib
+[1.163s] running install_data
+[1.163s] running install_egg_info
+[1.165s] removing '/home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+[1.165s] Copying ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info
+[1.166s] running install_scripts
+[1.187s] Installing genetic_pid_node script to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/pid_genetic_tuner
+[1.187s] writing list of installed files to '/home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log'
+[1.221s] Invoked command in '/home/upm/Escritorio/ros/src/pid_genetic_tuner' returned '0': PYTHONPATH=/home/upm/Escritorio/ros/build/pid_genetic_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pid_genetic_tuner build --build-base /home/upm/Escritorio/ros/build/pid_genetic_tuner/build install --record /home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log --single-version-externally-managed install_data

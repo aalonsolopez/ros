@@ -13,8 +13,8 @@ set_target_properties(msgs_control::msgs_control__rosidl_typesupport_cpp PROPERT
   IMPORTED_SONAME_NOCONFIG "libmsgs_control__rosidl_typesupport_cpp.so"
   )
 
-list(APPEND _cmake_import_check_targets msgs_control::msgs_control__rosidl_typesupport_cpp )
-list(APPEND _cmake_import_check_files_for_msgs_control::msgs_control__rosidl_typesupport_cpp "${_IMPORT_PREFIX}/lib/libmsgs_control__rosidl_typesupport_cpp.so" )
+list(APPEND _IMPORT_CHECK_TARGETS msgs_control::msgs_control__rosidl_typesupport_cpp )
+list(APPEND _IMPORT_CHECK_FILES_FOR_msgs_control::msgs_control__rosidl_typesupport_cpp "${_IMPORT_PREFIX}/lib/libmsgs_control__rosidl_typesupport_cpp.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

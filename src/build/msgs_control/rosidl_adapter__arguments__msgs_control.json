@@ -1,6 +1,0 @@
-{
-  "package_name": "msgs_control",
-  "non_idl_tuples": [
-    "/home/aalonso/Personal/ros2_ws/src/msgs_control:srv/SimPID.srv"
-  ]
-}

@@ -8,6 +8,8 @@ setup.py
 ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/requires.txt
 ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/top_level.txt
 ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/zip-safe
+launch/genetic_pid.launch.py
+pid_genetic_tuner/__init__.py
 pid_genetic_tuner/genetic_pid_node.py
 resource/pid_genetic_tuner
 test/test_copyright.py

@@ -1,0 +1,55 @@
+[0.943s] Invoking command in '/home/upm/Escritorio/ros/src/sim_pkg/sim_pkg': PYTHONPATH=/home/upm/Escritorio/ros/build/sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/sim_pkg build --build-base /home/upm/Escritorio/ros/build/sim_pkg/build install --record /home/upm/Escritorio/ros/build/sim_pkg/install.log --single-version-externally-managed install_data
+[1.174s] running egg_info
+[1.174s] creating ../../../build/sim_pkg/sim_pkg.egg-info
+[1.174s] writing ../../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO
+[1.174s] writing dependency_links to ../../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt
+[1.174s] writing entry points to ../../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt
+[1.174s] writing requirements to ../../../build/sim_pkg/sim_pkg.egg-info/requires.txt
+[1.175s] writing top-level names to ../../../build/sim_pkg/sim_pkg.egg-info/top_level.txt
+[1.175s] writing manifest file '../../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[1.176s] reading manifest file '../../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[1.177s] writing manifest file '../../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.177s] creating /home/upm/Escritorio/ros/build/sim_pkg/build
+[1.177s] creating /home/upm/Escritorio/ros/build/sim_pkg/build/lib
+[1.177s] creating /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg
+[1.177s] copying sim_pkg/sim_manual.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg
+[1.177s] copying sim_pkg/sim_node.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg
+[1.178s] copying sim_pkg/__init__.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg
+[1.178s] creating /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils
+[1.178s] copying sim_pkg/utils/Controller.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils
+[1.178s] copying sim_pkg/utils/DC_motor_sim.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils
+[1.178s] copying sim_pkg/utils/Performance.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils
+[1.178s] copying sim_pkg/utils/__init__.py -> /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils
+[1.178s] running install
+[1.178s] running install_lib
+[1.179s] creating /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[1.179s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/sim_manual.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[1.179s] creating /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[1.179s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils/Controller.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[1.179s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils/DC_motor_sim.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[1.179s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils/Performance.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[1.180s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/utils/__init__.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils
+[1.180s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/sim_node.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[1.180s] copying /home/upm/Escritorio/ros/build/sim_pkg/build/lib/sim_pkg/__init__.py -> /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg
+[1.180s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_manual.py to sim_manual.cpython-310.pyc
+[1.181s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Controller.py to Controller.cpython-310.pyc
+[1.181s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/DC_motor_sim.py to DC_motor_sim.cpython-310.pyc
+[1.182s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/Performance.py to Performance.cpython-310.pyc
+[1.182s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/utils/__init__.py to __init__.cpython-310.pyc
+[1.182s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/sim_node.py to sim_node.cpython-310.pyc
+[1.183s] byte-compiling /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg/__init__.py to __init__.cpython-310.pyc
+[1.183s] running install_data
+[1.183s] creating /home/upm/Escritorio/ros/install/sim_pkg/share/ament_index
+[1.183s] creating /home/upm/Escritorio/ros/install/sim_pkg/share/ament_index/resource_index
+[1.183s] creating /home/upm/Escritorio/ros/install/sim_pkg/share/ament_index/resource_index/packages
+[1.183s] copying resource/sim_pkg -> /home/upm/Escritorio/ros/install/sim_pkg/share/ament_index/resource_index/packages
+[1.183s] copying package.xml -> /home/upm/Escritorio/ros/install/sim_pkg/share/sim_pkg
+[1.183s] copying launch/sim_srv.launch.py -> /home/upm/Escritorio/ros/install/sim_pkg/share/sim_pkg
+[1.183s] running install_egg_info
+[1.185s] Copying ../../../build/sim_pkg/sim_pkg.egg-info to /home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info
+[1.186s] running install_scripts
+[1.205s] Installing simulator script to /home/upm/Escritorio/ros/install/sim_pkg/lib/sim_pkg
+[1.205s] writing list of installed files to '/home/upm/Escritorio/ros/build/sim_pkg/install.log'
+[1.236s] Invoked command in '/home/upm/Escritorio/ros/src/sim_pkg/sim_pkg' returned '0': PYTHONPATH=/home/upm/Escritorio/ros/build/sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upm/Escritorio/ros/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/sim_pkg build --build-base /home/upm/Escritorio/ros/build/sim_pkg/build install --record /home/upm/Escritorio/ros/build/sim_pkg/install.log --single-version-externally-managed install_data

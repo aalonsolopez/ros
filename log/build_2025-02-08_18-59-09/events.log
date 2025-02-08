@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (msgs_control) JobQueued: {'identifier': 'msgs_control', 'dependencies': OrderedDict()}
+[0.000314] (pid_genetic_tuner) JobQueued: {'identifier': 'pid_genetic_tuner', 'dependencies': OrderedDict()}
+[0.001212] (msgs_control) JobStarted: {'identifier': 'msgs_control'}
+[0.007105] (pid_genetic_tuner) JobStarted: {'identifier': 'pid_genetic_tuner'}
+[0.013551] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'cmake'}
+[0.013976] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '/home/upm/Escritorio/ros/src/msgs_control', '-DCMAKE_INSTALL_PREFIX=/home/upm/Escritorio/ros/install/msgs_control'], 'cwd': '/home/upm/Escritorio/ros/build/msgs_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'upm'), ('SSH_AGENT_PID', '54515'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/upm'), ('OLDPWD', '/home/upm/Escritorio'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/upm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'upm'), ('WINDOWID', '65011715'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('DOTNET_ROOT', '/home/upm/.dotnet'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/upm/.dotnet/tools:/home/upm/.dotnet:/home/upm/.dotnet/tools:/home/upm/.local/bin'), ('SESSION_MANAGER', 'local/etsisi00014:@/tmp/.ICE-unix/54410,unix/etsisi00014:/tmp/.ICE-unix/54410'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/upm/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/upm/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/upm/Escritorio/ros/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099113] (-) TimerEvent: {}
+[0.100125] (msgs_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.181207] (msgs_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190142] (msgs_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199350] (-) TimerEvent: {}
+[0.264418] (msgs_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.271114] (msgs_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.271653] (msgs_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.272012] (msgs_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.275314] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299493] (-) TimerEvent: {}
+[0.355474] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.362635] (msgs_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.362973] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.363414] (msgs_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.366232] (msgs_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399645] (-) TimerEvent: {}
+[0.500017] (-) TimerEvent: {}
+[0.503285] (msgs_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.587974] (msgs_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600218] (-) TimerEvent: {}
+[0.637529] (pid_genetic_tuner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pid_genetic_tuner', 'build', '--build-base', '/home/upm/Escritorio/ros/build/pid_genetic_tuner/build', 'install', '--record', '/home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/upm/Escritorio/ros/src/pid_genetic_tuner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'upm', 'SSH_AGENT_PID': '54515', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller', 'HOME': '/home/upm', 'OLDPWD': '/home/upm/Escritorio', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/upm/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'upm', 'WINDOWID': '65011715', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'DOTNET_ROOT': '/home/upm/.dotnet', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/upm/.dotnet/tools:/home/upm/.dotnet:/home/upm/.dotnet/tools:/home/upm/.local/bin', 'SESSION_MANAGER': 'local/etsisi00014:@/tmp/.ICE-unix/54410,unix/etsisi00014:/tmp/.ICE-unix/54410', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/upm/.cache/dotnet_bundle_extract', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'ROS_WS': '/home/upm/ros2_ws', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/upm/Escritorio/ros/build/pid_genetic_tuner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/upm/Escritorio/ros/build/pid_genetic_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.658923] (msgs_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.661947] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.668200] (msgs_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700426] (-) TimerEvent: {}
+[0.710923] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800584] (-) TimerEvent: {}
+[0.867723] (pid_genetic_tuner) StdoutLine: {'line': b'running egg_info\n'}
+[0.868307] (pid_genetic_tuner) StdoutLine: {'line': b'creating ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info\n'}
+[0.868453] (pid_genetic_tuner) StdoutLine: {'line': b'writing ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/PKG-INFO\n'}
+[0.868521] (pid_genetic_tuner) StdoutLine: {'line': b'writing dependency_links to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/dependency_links.txt\n'}
+[0.868591] (pid_genetic_tuner) StdoutLine: {'line': b'writing entry points to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/entry_points.txt\n'}
+[0.868672] (pid_genetic_tuner) StdoutLine: {'line': b'writing requirements to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/requires.txt\n'}
+[0.868722] (pid_genetic_tuner) StdoutLine: {'line': b'writing top-level names to ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/top_level.txt\n'}
+[0.868771] (pid_genetic_tuner) StdoutLine: {'line': b"writing manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'\n"}
+[0.869480] (pid_genetic_tuner) StderrLine: {'line': b"package init file 'pid_genetic_tuner/__init__.py' not found (or not a regular file)\n"}
+[0.869904] (pid_genetic_tuner) StdoutLine: {'line': b"reading manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'\n"}
+[0.870607] (pid_genetic_tuner) StdoutLine: {'line': b"writing manifest file '../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info/SOURCES.txt'\n"}
+[0.870898] (pid_genetic_tuner) StdoutLine: {'line': b'running build\n'}
+[0.870948] (pid_genetic_tuner) StdoutLine: {'line': b'running build_py\n'}
+[0.870995] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/build/pid_genetic_tuner/build\n'}
+[0.871043] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/build/pid_genetic_tuner/build/lib\n'}
+[0.873816] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/build/pid_genetic_tuner/build/lib/pid_genetic_tuner\n'}
+[0.874048] (pid_genetic_tuner) StdoutLine: {'line': b'copying pid_genetic_tuner/genetic_pid_node.py -> /home/upm/Escritorio/ros/build/pid_genetic_tuner/build/lib/pid_genetic_tuner\n'}
+[0.874113] (pid_genetic_tuner) StdoutLine: {'line': b'running install\n'}
+[0.874162] (pid_genetic_tuner) StdoutLine: {'line': b'running install_lib\n'}
+[0.874206] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner\n'}
+[0.874252] (pid_genetic_tuner) StdoutLine: {'line': b'copying /home/upm/Escritorio/ros/build/pid_genetic_tuner/build/lib/pid_genetic_tuner/genetic_pid_node.py -> /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner\n'}
+[0.874301] (pid_genetic_tuner) StdoutLine: {'line': b'byte-compiling /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner/genetic_pid_node.py to genetic_pid_node.cpython-310.pyc\n'}
+[0.874344] (pid_genetic_tuner) StdoutLine: {'line': b'running install_data\n'}
+[0.874405] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/install/pid_genetic_tuner/share/ament_index\n'}
+[0.874449] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/install/pid_genetic_tuner/share/ament_index/resource_index\n'}
+[0.874491] (pid_genetic_tuner) StdoutLine: {'line': b'creating /home/upm/Escritorio/ros/install/pid_genetic_tuner/share/ament_index/resource_index/packages\n'}
+[0.874533] (pid_genetic_tuner) StdoutLine: {'line': b'copying resource/pid_genetic_tuner -> /home/upm/Escritorio/ros/install/pid_genetic_tuner/share/ament_index/resource_index/packages\n'}
+[0.874574] (pid_genetic_tuner) StdoutLine: {'line': b'copying package.xml -> /home/upm/Escritorio/ros/install/pid_genetic_tuner/share/pid_genetic_tuner\n'}
+[0.874614] (pid_genetic_tuner) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.875182] (pid_genetic_tuner) StdoutLine: {'line': b'Copying ../../build/pid_genetic_tuner/pid_genetic_tuner.egg-info to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/python3.10/site-packages/pid_genetic_tuner-0.0.1-py3.10.egg-info\n'}
+[0.876035] (pid_genetic_tuner) StdoutLine: {'line': b'running install_scripts\n'}
+[0.895080] (pid_genetic_tuner) StdoutLine: {'line': b'Installing genetic_pid_node script to /home/upm/Escritorio/ros/install/pid_genetic_tuner/lib/pid_genetic_tuner\n'}
+[0.895293] (pid_genetic_tuner) StdoutLine: {'line': b"writing list of installed files to '/home/upm/Escritorio/ros/build/pid_genetic_tuner/install.log'\n"}
+[0.900647] (-) TimerEvent: {}
+[0.913460] (msgs_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.920323] (pid_genetic_tuner) CommandEnded: {'returncode': 0}
+[0.930408] (pid_genetic_tuner) JobEnded: {'identifier': 'pid_genetic_tuner', 'rc': 0}
+[1.000907] (-) TimerEvent: {}
+[1.084132] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101025] (-) TimerEvent: {}
+[1.201417] (-) TimerEvent: {}
+[1.301837] (-) TimerEvent: {}
+[1.302961] (msgs_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.325286] (msgs_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.326744] (msgs_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.351873] (msgs_control) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.352269] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.352330] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.352401] (msgs_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.370775] (msgs_control) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.401949] (-) TimerEvent: {}
+[1.402555] (msgs_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.404020] (msgs_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.412173] (msgs_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.437658] (msgs_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.439847] (msgs_control) StdoutLine: {'line': b'-- Build files have been written to: /home/upm/Escritorio/ros/build/msgs_control\n'}
+[1.449440] (msgs_control) CommandEnded: {'returncode': 0}
+[1.452087] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'build'}
+[1.452123] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/upm/Escritorio/ros/build/msgs_control', '--', '-j6', '-l6'], 'cwd': '/home/upm/Escritorio/ros/build/msgs_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'upm'), ('SSH_AGENT_PID', '54515'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/upm'), ('OLDPWD', '/home/upm/Escritorio'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/upm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'upm'), ('WINDOWID', '65011715'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('DOTNET_ROOT', '/home/upm/.dotnet'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/upm/.dotnet/tools:/home/upm/.dotnet:/home/upm/.dotnet/tools:/home/upm/.local/bin'), ('SESSION_MANAGER', 'local/etsisi00014:@/tmp/.ICE-unix/54410,unix/etsisi00014:/tmp/.ICE-unix/54410'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/upm/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/upm/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/upm/Escritorio/ros/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.492209] (msgs_control) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.499967] (msgs_control) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.502014] (-) TimerEvent: {}
+[1.508566] (msgs_control) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_msgs_control\n'}
+[1.602224] (-) TimerEvent: {}
+[1.702644] (-) TimerEvent: {}
+[1.744471] (msgs_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.744662] (msgs_control) StdoutLine: {'line': b'creating msgs_control.egg-info\n'}
+[1.744711] (msgs_control) StdoutLine: {'line': b'writing msgs_control.egg-info/PKG-INFO\n'}
+[1.744756] (msgs_control) StdoutLine: {'line': b'writing dependency_links to msgs_control.egg-info/dependency_links.txt\n'}
+[1.744800] (msgs_control) StdoutLine: {'line': b'writing top-level names to msgs_control.egg-info/top_level.txt\n'}
+[1.744842] (msgs_control) StdoutLine: {'line': b"writing manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[1.744883] (msgs_control) StdoutLine: {'line': b"reading manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[1.744944] (msgs_control) StdoutLine: {'line': b"writing manifest file 'msgs_control.egg-info/SOURCES.txt'\n"}
+[1.754637] (msgs_control) StdoutLine: {'line': b'[  6%] Built target msgs_control__cpp\n'}
+[1.764311] (msgs_control) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.764510] (msgs_control) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.766057] (msgs_control) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.770466] (msgs_control) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_msgs_control_egg\n'}
+[1.771222] (msgs_control) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_c.dir/rosidl_generator_c/msgs_control/srv/detail/sim_pid__functions.c.o\x1b[0m\n'}
+[1.803085] (-) TimerEvent: {}
+[1.835195] (msgs_control) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmsgs_control__rosidl_generator_c.so\x1b[0m\n'}
+[1.869677] (msgs_control) StdoutLine: {'line': b'[ 22%] Built target msgs_control__rosidl_generator_c\n'}
+[1.879542] (msgs_control) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.879686] (msgs_control) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.886243] (msgs_control) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.905404] (-) TimerEvent: {}
+[1.985732] (msgs_control) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_control/srv/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[2.005519] (-) TimerEvent: {}
+[2.029008] (msgs_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_control/srv/detail/dds_fastrtps/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[2.037238] (msgs_control) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_control/srv/detail/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[2.105640] (-) TimerEvent: {}
+[2.110489] (msgs_control) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_control/srv/sim_pid__type_support.cpp.o\x1b[0m\n'}
+[2.141714] (msgs_control) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.152903] (msgs_control) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_control/srv/detail/sim_pid__type_support_c.cpp.o\x1b[0m\n'}
+[2.167324] (msgs_control) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_control/srv/detail/sim_pid__type_support.c.o\x1b[0m\n'}
+[2.205763] (-) TimerEvent: {}
+[2.209737] (msgs_control) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmsgs_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.213394] (msgs_control) StdoutLine: {'line': b'[ 58%] Built target msgs_control__rosidl_typesupport_c\n'}
+[2.239967] (msgs_control) StdoutLine: {'line': b'[ 58%] Built target msgs_control__rosidl_typesupport_introspection_c\n'}
+[2.305885] (-) TimerEvent: {}
+[2.309100] (msgs_control) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.351073] (msgs_control) StdoutLine: {'line': b'[ 61%] Built target msgs_control__rosidl_typesupport_cpp\n'}
+[2.406043] (-) TimerEvent: {}
+[2.423138] (msgs_control) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.446797] (msgs_control) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.462692] (msgs_control) StdoutLine: {'line': b'[ 67%] Built target msgs_control__rosidl_typesupport_introspection_cpp\n'}
+[2.486565] (msgs_control) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.506121] (-) TimerEvent: {}
+[2.519049] (msgs_control) StdoutLine: {'line': b'[ 70%] Built target msgs_control__rosidl_typesupport_fastrtps_cpp\n'}
+[2.558938] (msgs_control) StdoutLine: {'line': b'[ 70%] Built target msgs_control__rosidl_typesupport_fastrtps_c\n'}
+[2.579134] (msgs_control) StdoutLine: {'line': b'[ 70%] Built target msgs_control\n'}
+[2.599030] (msgs_control) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.606256] (-) TimerEvent: {}
+[2.706665] (-) TimerEvent: {}
+[2.807095] (-) TimerEvent: {}
+[2.907706] (-) TimerEvent: {}
+[2.949165] (msgs_control) StdoutLine: {'line': b'[ 74%] Built target msgs_control__py\n'}
+[2.969233] (msgs_control) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_py.dir/rosidl_generator_py/msgs_control/srv/_sim_pid_s.c.o\x1b[0m\n'}
+[3.007953] (-) TimerEvent: {}
+[3.092552] (msgs_control) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/libmsgs_control__rosidl_generator_py.so\x1b[0m\n'}
+[3.108063] (-) TimerEvent: {}
+[3.131817] (msgs_control) StdoutLine: {'line': b'[ 80%] Built target msgs_control__rosidl_generator_py\n'}
+[3.151664] (msgs_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.152221] (msgs_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.152746] (msgs_control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.208159] (-) TimerEvent: {}
+[3.239681] (msgs_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.240234] (msgs_control) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.245081] (msgs_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.272130] (msgs_control) StdoutLine: {'line': b'[100%] Built target msgs_control__rosidl_typesupport_introspection_c__pyext\n'}
+[3.273641] (msgs_control) StdoutLine: {'line': b'[100%] Built target msgs_control__rosidl_typesupport_c__pyext\n'}
+[3.278044] (msgs_control) StdoutLine: {'line': b'[100%] Built target msgs_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.288943] (msgs_control) CommandEnded: {'returncode': 0}
+[3.308260] (-) TimerEvent: {}
+[3.346141] (msgs_control) JobProgress: {'identifier': 'msgs_control', 'progress': 'install'}
+[3.354999] (msgs_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/upm/Escritorio/ros/build/msgs_control'], 'cwd': '/home/upm/Escritorio/ros/build/msgs_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'upm'), ('SSH_AGENT_PID', '54515'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/webots/lib/controller'), ('HOME', '/home/upm'), ('OLDPWD', '/home/upm/Escritorio'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/upm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'upm'), ('WINDOWID', '65011715'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('DOTNET_ROOT', '/home/upm/.dotnet'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/upm/.dotnet/tools:/home/upm/.dotnet:/home/upm/.dotnet/tools:/home/upm/.local/bin'), ('SESSION_MANAGER', 'local/etsisi00014:@/tmp/.ICE-unix/54410,unix/etsisi00014:/tmp/.ICE-unix/54410'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/upm/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/upm/ros2_ws'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/upm/Escritorio/ros/build/msgs_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.362307] (msgs_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.362479] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/rosidl_interfaces/msgs_control\n'}
+[3.362565] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.362647] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[3.362743] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.362859] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.362919] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.363004] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.h\n'}
+[3.363078] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.h\n'}
+[3.363135] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.h\n'}
+[3.363220] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.c\n'}
+[3.363297] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.h\n'}
+[3.363413] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/library_path.sh\n'}
+[3.363522] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/library_path.dsv\n'}
+[3.363659] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so\n'}
+[3.363912] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so" to ""\n'}
+[3.364001] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.364091] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[3.364144] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.364242] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.364293] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.364385] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_c.h\n'}
+[3.364439] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so\n'}
+[3.364552] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.364650] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.364698] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[3.364762] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.364846] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.364920] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.364963] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_c.h\n'}
+[3.365008] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.c\n'}
+[3.365100] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so\n'}
+[3.365384] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.365620] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so\n'}
+[3.365707] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so" to ""\n'}
+[3.365863] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.365928] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.365988] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.366045] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__builder.hpp\n'}
+[3.366111] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__traits.hpp\n'}
+[3.366169] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.hpp\n'}
+[3.366304] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.hpp\n'}
+[3.366368] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.366431] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg\n'}
+[3.366484] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.366555] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.366612] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.366666] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/dds_fastrtps\n'}
+[3.366721] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.366855] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.366916] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.366971] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control\n'}
+[3.367026] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv\n'}
+[3.367088] (msgs_control) StdoutLine: {'line': b'-- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail\n'}
+[3.367212] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.367262] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.cpp\n'}
+[3.367303] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so\n'}
+[3.367441] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.367496] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so\n'}
+[3.367609] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so" to ""\n'}
+[3.367694] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/pythonpath.sh\n'}
+[3.367778] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/pythonpath.dsv\n'}
+[3.367879] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info\n'}
+[3.367980] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.368098] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.368148] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.368257] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.368392] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control\n'}
+[3.368455] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.368565] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.368614] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.368728] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.368776] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.368862] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/libmsgs_control__rosidl_generator_py.so\n'}
+[3.368959] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c\n'}
+[3.369098] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv\n'}
+[3.369213] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid_s.c\n'}
+[3.369260] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py\n'}
+[3.369373] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py\n'}
+[3.369497] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py\n'}
+[3.402259] (msgs_control) StdoutLine: {'line': b"Listing '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control'...\n"}
+[3.402420] (msgs_control) StdoutLine: {'line': b"Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py'...\n"}
+[3.402479] (msgs_control) StdoutLine: {'line': b"Listing '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv'...\n"}
+[3.402524] (msgs_control) StdoutLine: {'line': b"Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py'...\n"}
+[3.402566] (msgs_control) StdoutLine: {'line': b"Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py'...\n"}
+[3.407008] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.407275] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.407443] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.407635] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.407769] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.408011] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.408069] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so\n'}
+[3.408264] (msgs_control) StdoutLine: {'line': b'-- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so" to ""\n'}
+[3.408316] (-) TimerEvent: {}
+[3.408498] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID.idl\n'}
+[3.408568] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID.srv\n'}
+[3.408625] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID_Request.msg\n'}
+[3.408747] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID_Response.msg\n'}
+[3.408797] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/package_run_dependencies/msgs_control\n'}
+[3.408929] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/parent_prefix_path/msgs_control\n'}
+[3.409022] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/ament_prefix_path.sh\n'}
+[3.409138] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/ament_prefix_path.dsv\n'}
+[3.409257] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/path.sh\n'}
+[3.409377] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/path.dsv\n'}
+[3.409430] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.bash\n'}
+[3.409517] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.sh\n'}
+[3.409599] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.zsh\n'}
+[3.409697] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.dsv\n'}
+[3.409802] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/package.dsv\n'}
+[3.409928] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/packages/msgs_control\n'}
+[3.410027] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport.cmake\n'}
+[3.410147] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.410293] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.410433] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.410648] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.410719] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.410802] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport.cmake\n'}
+[3.410884] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.410959] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cppExport.cmake\n'}
+[3.411030] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.411155] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.411264] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.411376] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.411497] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport.cmake\n'}
+[3.411602] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.411705] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport.cmake\n'}
+[3.411836] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.411925] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake-extras.cmake\n'}
+[3.412016] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.412112] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.412241] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.412332] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.412439] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.412545] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.412638] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig.cmake\n'}
+[3.412719] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig-version.cmake\n'}
+[3.412810] (msgs_control) StdoutLine: {'line': b'-- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/package.xml\n'}
+[3.414818] (msgs_control) CommandEnded: {'returncode': 0}
+[3.487108] (msgs_control) JobEnded: {'identifier': 'msgs_control', 'rc': 0}
+[3.488593] (-) EventReactorShutdown: {}

@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/aalonso/Personal/ros2_ws/install/sim_pkg'
+    sys.prefix = sys.exec_prefix = '/home/upm/Escritorio/ros/install/sim_pkg'

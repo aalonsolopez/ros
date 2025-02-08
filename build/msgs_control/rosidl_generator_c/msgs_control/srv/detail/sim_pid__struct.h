@@ -2,9 +2,6 @@
 // with input from msgs_control:srv/SimPID.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "msgs_control/srv/sim_pid.h"
-
-
 #ifndef MSGS_CONTROL__SRV__DETAIL__SIM_PID__STRUCT_H_
 #define MSGS_CONTROL__SRV__DETAIL__SIM_PID__STRUCT_H_
 
@@ -38,6 +35,7 @@ typedef struct msgs_control__srv__SimPID_Request__Sequence
   size_t capacity;
 } msgs_control__srv__SimPID_Request__Sequence;
 
+
 // Constants defined in the message
 
 /// Struct defined in srv/SimPID in the package msgs_control.
@@ -58,42 +56,6 @@ typedef struct msgs_control__srv__SimPID_Response__Sequence
   /// The number of allocated items in data
   size_t capacity;
 } msgs_control__srv__SimPID_Response__Sequence;
-
-// Constants defined in the message
-
-// Include directives for member types
-// Member 'info'
-#include "service_msgs/msg/detail/service_event_info__struct.h"
-
-// constants for array fields with an upper bound
-// request
-enum
-{
-  msgs_control__srv__SimPID_Event__request__MAX_SIZE = 1
-};
-// response
-enum
-{
-  msgs_control__srv__SimPID_Event__response__MAX_SIZE = 1
-};
-
-/// Struct defined in srv/SimPID in the package msgs_control.
-typedef struct msgs_control__srv__SimPID_Event
-{
-  service_msgs__msg__ServiceEventInfo info;
-  msgs_control__srv__SimPID_Request__Sequence request;
-  msgs_control__srv__SimPID_Response__Sequence response;
-} msgs_control__srv__SimPID_Event;
-
-// Struct for a sequence of msgs_control__srv__SimPID_Event.
-typedef struct msgs_control__srv__SimPID_Event__Sequence
-{
-  msgs_control__srv__SimPID_Event * data;
-  /// The number of valid items in data
-  size_t size;
-  /// The number of allocated items in data
-  size_t capacity;
-} msgs_control__srv__SimPID_Event__Sequence;
 
 #ifdef __cplusplus
 }

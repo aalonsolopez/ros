@@ -2,14 +2,14 @@ import rclpy
 from rclpy.node import Node
 import numpy as np
 import random
-from msgs_control.srv import PIDService  # Usar el mensaje correcto
+from msgs_control.srv import SimPID  # Usar el mensaje correcto
 
 class GeneticPIDTuner(Node):
     def __init__(self):
         super().__init__('genetic_pid_tuner')
 
         # Cliente de servicio que se comunica con el simulador del motor
-        self.client = self.create_client(PIDService, '/serv/sim_pid')
+        self.client = self.create_client(SimPID, '/serv/sim_pid')
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().warn("Esperando el servicio del motor en /serv/sim_pid...")
 
@@ -26,20 +26,23 @@ class GeneticPIDTuner(Node):
         return [np.random.uniform(0, 10, 3) for _ in range(self.population_size)]
 
     def evaluate_fitness(self, pid_values):
-        request = PIDService.Request()
-        request.p, request.i, request.d = pid_values
+        request = SimPID.Request()
+        request.kp, request.ki, request.kd = pid_values
 
         future = self.client.call_async(request)
         rclpy.spin_until_future_complete(self, future)
 
         if future.result() is not None:
-            return future.result().performance_score  # Usar la métrica del simulador
+            response = future.result()
+            # Calcular el performance_score basado en los campos de la respuesta
+            performance_score = response.overshoot + response.d + response.ess + response.ts
+            return performance_score
         else:
             self.get_logger().error("Error en la llamada al servicio.")
             return float('inf')
 
     def select_parents(self, scores):
-        sorted_population = [x for _, x in sorted(zip(scores, self.population))]
+        sorted_population = [x for _, x in sorted(zip(scores, self.population), key=lambda pair: pair[0])]
         return sorted_population[:2]
 
     def crossover(self, parent1, parent2):

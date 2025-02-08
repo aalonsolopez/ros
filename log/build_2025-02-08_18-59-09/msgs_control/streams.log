@@ -1,0 +1,231 @@
+[0.014s] Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/upm/Escritorio/ros/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/upm/Escritorio/ros/install/msgs_control
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.365s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.587s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.658s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.667s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.326s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.351s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.351s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.351s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.351s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.370s] -- Found PythonExtra: .so  
+[1.401s] -- Added test 'lint_cmake' to check CMake code style
+[1.403s] -- Added test 'xmllint' to check XML markup files
+[1.411s] -- Configuring done
+[1.437s] -- Generating done
+[1.439s] -- Build files have been written to: /home/upm/Escritorio/ros/build/msgs_control
+[1.451s] Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/upm/Escritorio/ros/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/upm/Escritorio/ros/install/msgs_control
+[1.451s] Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/upm/Escritorio/ros/build/msgs_control -- -j6 -l6
+[1.491s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.499s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.507s] [  6%] Built target ament_cmake_python_copy_msgs_control
+[1.743s] running egg_info
+[1.743s] creating msgs_control.egg-info
+[1.744s] writing msgs_control.egg-info/PKG-INFO
+[1.744s] writing dependency_links to msgs_control.egg-info/dependency_links.txt
+[1.744s] writing top-level names to msgs_control.egg-info/top_level.txt
+[1.744s] writing manifest file 'msgs_control.egg-info/SOURCES.txt'
+[1.744s] reading manifest file 'msgs_control.egg-info/SOURCES.txt'
+[1.744s] writing manifest file 'msgs_control.egg-info/SOURCES.txt'
+[1.754s] [  6%] Built target msgs_control__cpp
+[1.763s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.763s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.765s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.769s] [ 16%] Built target ament_cmake_python_build_msgs_control_egg
+[1.770s] [ 19%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_c.dir/rosidl_generator_c/msgs_control/srv/detail/sim_pid__functions.c.o[0m
+[1.834s] [ 22%] [32m[1mLinking C shared library libmsgs_control__rosidl_generator_c.so[0m
+[1.869s] [ 22%] Built target msgs_control__rosidl_generator_c
+[1.878s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.878s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.885s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.985s] [ 35%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_control/srv/sim_pid__type_support.cpp.o[0m
+[2.028s] [ 38%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_control/srv/detail/dds_fastrtps/sim_pid__type_support.cpp.o[0m
+[2.036s] [ 41%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_control/srv/detail/sim_pid__type_support.cpp.o[0m
+[2.109s] [ 45%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_control/srv/sim_pid__type_support.cpp.o[0m
+[2.141s] [ 48%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_c.so[0m
+[2.152s] [ 51%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_control/srv/detail/sim_pid__type_support_c.cpp.o[0m
+[2.166s] [ 54%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_control/srv/detail/sim_pid__type_support.c.o[0m
+[2.209s] [ 58%] [32m[1mLinking C shared library libmsgs_control__rosidl_typesupport_introspection_c.so[0m
+[2.212s] [ 58%] Built target msgs_control__rosidl_typesupport_c
+[2.239s] [ 58%] Built target msgs_control__rosidl_typesupport_introspection_c
+[2.308s] [ 61%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_cpp.so[0m
+[2.350s] [ 61%] Built target msgs_control__rosidl_typesupport_cpp
+[2.422s] [ 64%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_introspection_cpp.so[0m
+[2.446s] [ 67%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.462s] [ 67%] Built target msgs_control__rosidl_typesupport_introspection_cpp
+[2.486s] [ 70%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_c.so[0m
+[2.518s] [ 70%] Built target msgs_control__rosidl_typesupport_fastrtps_cpp
+[2.558s] [ 70%] Built target msgs_control__rosidl_typesupport_fastrtps_c
+[2.578s] [ 70%] Built target msgs_control
+[2.598s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.948s] [ 74%] Built target msgs_control__py
+[2.968s] [ 77%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_py.dir/rosidl_generator_py/msgs_control/srv/_sim_pid_s.c.o[0m
+[3.092s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/libmsgs_control__rosidl_generator_py.so[0m
+[3.131s] [ 80%] Built target msgs_control__rosidl_generator_py
+[3.151s] [ 83%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c.o[0m
+[3.151s] [ 87%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.152s] [ 90%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.239s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.239s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.244s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.271s] [100%] Built target msgs_control__rosidl_typesupport_introspection_c__pyext
+[3.273s] [100%] Built target msgs_control__rosidl_typesupport_c__pyext
+[3.277s] [100%] Built target msgs_control__rosidl_typesupport_fastrtps_c__pyext
+[3.289s] Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/upm/Escritorio/ros/build/msgs_control -- -j6 -l6
+[3.354s] Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/upm/Escritorio/ros/build/msgs_control
+[3.361s] -- Install configuration: ""
+[3.361s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/rosidl_interfaces/msgs_control
+[3.361s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.361s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_generator_c__visibility_control.h
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.h
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.h
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.h
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.c
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.h
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/library_path.sh
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/library_path.dsv
+[3.362s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so
+[3.363s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so" to ""
+[3.363s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.363s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg
+[3.363s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.363s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.363s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.363s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_c.h
+[3.363s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so
+[3.363s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so" to ""
+[3.363s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.364s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg
+[3.364s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.364s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.364s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.364s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_c.h
+[3.364s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.c
+[3.364s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so
+[3.364s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so" to ""
+[3.364s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so
+[3.365s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so" to ""
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__builder.hpp
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__traits.hpp
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.hpp
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.hpp
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.365s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.365s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/dds_fastrtps
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so
+[3.366s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.366s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control
+[3.366s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv
+[3.366s] -- Up-to-date: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_cpp.hpp
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.cpp
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so
+[3.366s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so" to ""
+[3.366s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so
+[3.366s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so" to ""
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/pythonpath.sh
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/pythonpath.dsv
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/top_level.txt
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/PKG-INFO
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.367s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/libmsgs_control__rosidl_generator_py.so
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid_s.c
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py
+[3.368s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py
+[3.401s] Listing '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control'...
+[3.401s] Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py'...
+[3.401s] Listing '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv'...
+[3.401s] Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py'...
+[3.401s] Compiling '/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py'...
+[3.406s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.406s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.407s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.407s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.407s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so
+[3.407s] -- Set runtime path of "/home/upm/Escritorio/ros/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so" to ""
+[3.407s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID.idl
+[3.407s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID.srv
+[3.407s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID_Request.msg
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/srv/SimPID_Response.msg
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/package_run_dependencies/msgs_control
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/parent_prefix_path/msgs_control
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/ament_prefix_path.sh
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/ament_prefix_path.dsv
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/path.sh
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/environment/path.dsv
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.bash
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.sh
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.zsh
+[3.408s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/local_setup.dsv
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/package.dsv
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/ament_index/resource_index/packages/msgs_control
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport.cmake
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport-noconfig.cmake
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport.cmake
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.409s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport-noconfig.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cppExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport.cmake
+[3.410s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport-noconfig.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport-noconfig.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_targets-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.411s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig.cmake
+[3.412s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig-version.cmake
+[3.412s] -- Installing: /home/upm/Escritorio/ros/install/msgs_control/share/msgs_control/package.xml
+[3.414s] Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/upm/Escritorio/ros/build/msgs_control

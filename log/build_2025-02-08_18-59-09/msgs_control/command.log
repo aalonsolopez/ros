@@ -1,0 +1,6 @@
+Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/upm/Escritorio/ros/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/upm/Escritorio/ros/install/msgs_control
+Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/upm/Escritorio/ros/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/upm/Escritorio/ros/install/msgs_control
+Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/upm/Escritorio/ros/build/msgs_control -- -j6 -l6
+Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/upm/Escritorio/ros/build/msgs_control -- -j6 -l6
+Invoking command in '/home/upm/Escritorio/ros/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/upm/Escritorio/ros/build/msgs_control
+Invoked command in '/home/upm/Escritorio/ros/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/upm/Escritorio/ros/build/msgs_control

@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='pid_genetic_tuner',
-            executable='genetic_pid_node.py',
+            executable='genetic_pid_node',
             output='screen',
         ),
     ])
